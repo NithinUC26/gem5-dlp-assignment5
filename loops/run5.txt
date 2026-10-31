@@ -1,0 +1,12 @@
+threads available: 2
+L1 independent loop   serial 0.0337 s  parallel 0.0186 s  speedup 1.81
+   same result as serial: yes
+L2 sum reduction        serial 0.0086 s  parallel 0.0043 s  speedup 1.99
+   relative difference in the sum: 8.0e-13
+L3 prefix sum (carried) serial 0.0091 s  two-pass 0.0069 s  speedup 1.31
+   max relative error vs double-precision reference:
+     serial 5.0e-04 | two-pass 1.7e-06 (0 wrong elements)
+     naive parallel 1.0e+00 (4194303 of 8388608 elements wrong)
+L4 matmul 512x512         ijk 0.1593 s  ikj 0.0621 s (x2.56)
+   ikj + parallel 0.0305 s (x5.23 vs ijk)
+   C[7][9]: ijk 80.480  ikj 80.480
