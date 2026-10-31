@@ -1,0 +1,5 @@
+   103dc:	0d86f757          	vsetvli	a4,a3,e64,m1,ta,ma
+   103e6:	0205f107          	vle64.v	v2,(a1)
+   103ea:	0207f087          	vle64.v	v1,(a5)
+   103f2:	b227d0d7          	vfmacc.vf	v1,fa5,v2
+   103f6:	0207f0a7          	vse64.v	v1,(a5)

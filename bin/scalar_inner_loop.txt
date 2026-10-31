@@ -1,0 +1,8 @@
+   10382:	e727b687          	fld	fa3,-398(a5) # 571f0 <__PRETTY_FUNCTION__.2+0x20>
+   1038a:	e727b707          	fld	fa4,-398(a5) # 571f8 <__PRETTY_FUNCTION__.2+0x28>
+   103ae:	a298                	fsd	fa4,0(a3)
+   103b2:	12d7f7d3          	fmul.d	fa5,fa5,fa3
+   103ba:	fef73c27          	fsd	fa5,-8(a4)
+   103c6:	e3e7b687          	fld	fa3,-450(a5) # 57200 <__PRETTY_FUNCTION__.2+0x30>
+   103e6:	2398                	fld	fa4,0(a5)
+   103e8:	231c                	fld	fa5,0(a4)
